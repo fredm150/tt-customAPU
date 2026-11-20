@@ -13,7 +13,7 @@ This project is simply an 8 bit adder. It takes in two inputs (both 8 bit number
 
 ## How to test
 
-Explain how to use your project
+Test the adder using all possible inputs between 0 and 255. For example, if num_1 is 0x7D (125 in decimal) and num_2 is 0x61 (97 in decimal), the adder would compute the result to be 0xDE (222 in decimal). Then you can verify the result manually using a calculator.
 
 ## External hardware
 

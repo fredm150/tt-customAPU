@@ -17,6 +17,7 @@ module tb ();
   reg clk;
   reg rst_n;
   reg ena;
+  // reg [7:0] num_1, num_2;
   reg [7:0] ui_in;
   reg [7:0] uio_in;
   wire [7:0] uo_out;
@@ -28,7 +29,7 @@ module tb ();
 `endif
 
   // Replace tt_um_example with your module name:
-  tt_um_adder_fredm (
+  tt_um_adder_fredm user_project (
 
       // Include power ports for the Gate Level test:
 `ifdef GL_TEST

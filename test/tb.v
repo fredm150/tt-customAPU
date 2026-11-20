@@ -37,8 +37,8 @@ module tb ();
       .VGND(VGND),
 `endif
 
-      .ui_in  (ui_in),    // Dedicated inputs
-      .uo_out (uo_out),   // Dedicated outputs
+      .ui_in  (ui_in),    // maps to num_1
+      .uo_out (uo_out),   // maps to the sum
       .uio_in (uio_in),   // input for the second number
       .uio_out(uio_out),  // IOs: Output path
       .uio_oe (uio_oe),   // IOs: Enable path (active high: 0=input, 1=output)

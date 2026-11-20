@@ -21,6 +21,8 @@ The GitHub action will automatically build the ASIC files using [LibreLane](http
 
 ## Enable GitHub actions to build the results page
 
+- [GDS Layout Viewer](https://fredm150.github.io/tt-customAPU/)
+
 - [Enabling GitHub Pages](https://tinytapeout.com/faq/#my-github-action-is-failing-on-the-pages-part)
 
 ## Resources

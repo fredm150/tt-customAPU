@@ -9,7 +9,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This project is simply an 8 bit adder. It takes in two inputs (both 8 bit numbers), and then adds the two together to produce an 8 bit output number. This configuration ignores the carry out bit as well as any carry in bits.
 
 ## How to test
 
@@ -17,4 +17,4 @@ Explain how to use your project
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+No external hardware has been used yet. 

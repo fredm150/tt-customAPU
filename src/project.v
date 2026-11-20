@@ -6,9 +6,9 @@
 `default_nettype none
 
 module tt_um_adder_fredm (
-    input  wire [7:0] ui_in,    // Dedicated inputs
-    output wire [7:0] uo_out,   // Dedicated outputs
-    input  wire [7:0] uio_in,   // IOs: Input path
+    input  wire [7:0] ui_in,    // inputs of num_1
+    output wire [7:0] uo_out,   // Dedicated outputs (stores sum of num_1 and num_2)
+    input  wire [7:0] uio_in,   // bidirectional (can be set to anything), so I set to inputs of num_2
     output wire [7:0] uio_out,  // IOs: Output path
     output wire [7:0] uio_oe,   // IOs: Enable path (active high: 0=input, 1=output)
     input  wire       ena,      // always 1 when the design is powered, so you can ignore it
